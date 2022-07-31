@@ -45,3 +45,29 @@ console.log(result);
 allMoney = 451842.1542845;
 allMoney = parseInt(451842.1542845);
 console.log(allMoney);
+
+allcent = 1425.254856;
+console.log(parseFloat(1425.254856));
+console.log(typeof allcent);
+console.log(allcent.toFixed());
+console.log(allcent.toFixed(2));  //use for see after point value.
+
+myMoney = (45185.1254.toFixed(2));
+console.log(myMoney); 
+
+val1 = "4";
+val2 = 4;
+result = val1 + val2;
+console.log(result);
+
+//example of parseFloat
+example = ("452.15485");
+console.log(parseFloat(example));
+
+//example of parseInt
+example = (451.12548);
+console.log(parseInt(example));
+
+//example of toFixed
+example5 = (451.458595);
+console.log(example5.toFixed(2));
